@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/form.css" />
+  </head>
+  <body>
+    <form class="Registration-Form" method="post" autocomplete="off">
+      <h1>Registration Form</h1>
+      <div class="form-group">
+        <label for="display-name" class="form-label">Display Name</label>
+        <input type="text" name="" id="display-name" />
+      </div>
+
+      <div class="form-group">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" name="" id="email" />
+      </div>
+
+      <div class="form-group">
+        <label for="tel" class="form-label">Phone Number</label>
+        <input type="tel" name="" id="tel" />
+      </div>
+
+      <div class="form-group">
+        <label for="password" class="form-label">Password</label>
+        <input type="password" name="" id="password" />
+      </div>
+
+      <div class="form-group">
+        <label for="confirm-password" class="form-label"
+          >Confirm Password</label
+        >
+        <input type="text" name="" id="confirm-password" />
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Gender</label>
+
+        <label class="pick-label">
+          <input type="radio" name="gender" checked/> Male
+        </label>
+
+        <label class="pick-label">
+          <input type="radio" name="gender" /> Female
+        </label>
+
+        <label class="pick-label">
+          <input type="radio" name="gender" /> Other
+        </label>
+      </div>
+
+      <div class="form-group">
+        <label for="date" class="form-label">Date of Birth</label>
+        <input type="date" name="" id="date" />
+      </div>
+
+      <div class="form-group">
+        <label for="address" class="form-label">Address</label>
+        <input type="address" name="" id="address" />
+      </div>
+
+      <div class="form-group">
+        <label for="profile-picture" class="form-label">Profile Picture</label>
+        <label for="profile-picture" class="form-avatar">
+          <img src="./img/15.png" alt="" class="avatar-img" width="100px" />
+        </label>
+        <input type="file" name="Tải lên" id="profile-picture" hidden />
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Communication Preferences</label>
+
+        <label class="pick-label-1">
+          <input type="checkbox" name="gender" /> Subscribe to Newsletter
+        </label>
+
+        <label class="pick-label-1">
+          <input type="checkbox" name="gender" /> Receive Promotional Emails
+        </label>
+
+        <label class="pick-label-1">
+          <input type="checkbox" name="gender" /> Get Product Updates
+        </label>
+      </div>
+
+      <button class="btn">Register</button>
+
+    </form>
+  </body>
+</html>
